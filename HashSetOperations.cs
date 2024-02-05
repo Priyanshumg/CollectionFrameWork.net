@@ -36,5 +36,24 @@ namespace CollectionFrameWorks
             Console.WriteLine();
         }
 
+        public static void RemoveElementHashSet(string[] RemoveElementsInArray)
+        {
+            foreach (string ArrayElement in RemoveElementsInArray)
+            {
+                newHashSet.Remove(ArrayElement);
+            }
+            Console.Write("Removed These Elements { ");
+            foreach (string Element in RemoveElementsInArray)
+            {
+                Thread.Sleep(1000);
+                Console.Write(Element + ", ");
+            }
+            Console.WriteLine(" Null };");
+            Console.WriteLine("Printing Updated Array");
+            PrintHashSetElements();
+            Console.WriteLine();
+        }
+
+
     }
 }
