@@ -36,6 +36,5 @@ namespace CollectionFrameWorks
             Console.WriteLine("Null }");
             Console.WriteLine();
         }
-
     }
 }
