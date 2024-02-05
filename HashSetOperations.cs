@@ -8,6 +8,6 @@ namespace CollectionFrameWorks
 {
     public class HashSetOperations
     {
-
+        HashSet<string> newHashSet = new HashSet<string>();
     }
 }
