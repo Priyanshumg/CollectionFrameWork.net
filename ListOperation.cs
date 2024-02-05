@@ -25,5 +25,10 @@ namespace CollectionFrameWorks
         {
             Console.WriteLine($"List Capacity = {newList.Capacity} Bytes");
         }
+
+        public static void PrintLengthList()
+        {
+            Console.WriteLine($"List Length = {newList.Count}");
+        }
     }
 }

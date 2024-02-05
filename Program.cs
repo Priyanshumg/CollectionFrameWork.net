@@ -44,6 +44,7 @@ namespace CollectionFrameWorks
         {
             ListOperation.AddElementInList(UsersDataArray);
             ListOperation.PrintListCapacity();
+            ListOperation.PrintLengthList();
         }
         static void Main(string[] args)
         {
