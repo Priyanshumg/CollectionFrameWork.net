@@ -44,5 +44,13 @@ namespace CollectionFrameWorks
             PrintLinkedList();
         }
 
+        public static void RemoveLastElement()
+        {
+            myLinkedList.RemoveLast();
+            Console.WriteLine("Removed Last Element of a LinkedList");
+            Console.WriteLine("Printing Current LinkedList of Elements:");
+            PrintLinkedList();
+        }
+
     }
 }
