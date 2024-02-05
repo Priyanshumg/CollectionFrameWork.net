@@ -42,11 +42,12 @@ namespace CollectionFrameWorks
 
         public static void List_Operations()
         {
+            ListOperation.AddElementInList(UsersDataArray);
         }
         static void Main(string[] args)
         {
-            // LinkedList_Operations();
-            // HashSet_Operations();
+            LinkedList_Operations();
+            HashSet_Operations();
             List_Operations();
             Console.ReadLine();
         }   
