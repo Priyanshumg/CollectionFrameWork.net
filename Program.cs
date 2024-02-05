@@ -14,6 +14,8 @@ namespace CollectionFrameWorks
             LinkedListOperations.AddElementsInLinkedList(UsersDataArray);
             LinkedListOperations.PrintLinkedList();
             LinkedListOperations.RemoveFirstElement();
+            LinkedListOperations.RemoveLastElement();
+            Console.ReadLine();
         }   
     }
 }
