@@ -1,0 +1,7 @@
+C:\Users\Dell\Desktop\locobuzz .net training\CollectionFrameWorks\bin\Debug\CollectionFrameWorks.exe.config
+C:\Users\Dell\Desktop\locobuzz .net training\CollectionFrameWorks\bin\Debug\CollectionFrameWorks.exe
+C:\Users\Dell\Desktop\locobuzz .net training\CollectionFrameWorks\bin\Debug\CollectionFrameWorks.pdb
+C:\Users\Dell\Desktop\locobuzz .net training\CollectionFrameWorks\obj\Debug\CollectionFrameWorks.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\locobuzz .net training\CollectionFrameWorks\obj\Debug\CollectionFrameWorks.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\locobuzz .net training\CollectionFrameWorks\obj\Debug\CollectionFrameWorks.exe
+C:\Users\Dell\Desktop\locobuzz .net training\CollectionFrameWorks\obj\Debug\CollectionFrameWorks.pdb
