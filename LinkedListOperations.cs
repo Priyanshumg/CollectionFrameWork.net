@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CollectionFrameWorks
 {
-    internal class Class1
+    internal class LinkedListOperations
     {
+        public static LinkedList<string> myLinkedList = new LinkedList<string>();
     }
 }
