@@ -56,6 +56,9 @@ namespace CollectionFrameWorks
         {
             StackOperations.AddElementsInStack(UsersDataArray);
             StackOperations.DisplayAllElementsInStack();
+            StackOperations.CheckStringInStack("Priyanshu");
+            StackOperations.CheckStringInStack("Gandhi");
+            
         }
         static void Main(string[] args)
         {

@@ -73,7 +73,7 @@ namespace CollectionFrameWorks
             DisplayAllElementsInStack();
         }
 
-        public static void AddObjectAtTop()
+        public static void AddObjectAtTop(String ObjectName)
         {
             Console.WriteLine("Adding Object to the Top of Stack");
             newStack.Peek();
