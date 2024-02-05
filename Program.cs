@@ -43,6 +43,7 @@ namespace CollectionFrameWorks
         public static void List_Operations()
         {
             ListOperation.AddElementInList(UsersDataArray);
+            ListOperation.PrintListCapacity();
         }
         static void Main(string[] args)
         {
