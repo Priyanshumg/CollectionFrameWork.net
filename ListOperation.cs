@@ -21,5 +21,9 @@ namespace CollectionFrameWorks
             Console.WriteLine("Added Elements Successfully");
         }
 
+        public static void PrintListCapacity()
+        {
+            Console.WriteLine($"List Capacity = {newList.Capacity} Bytes");
+        }
     }
 }
