@@ -55,6 +55,7 @@ namespace CollectionFrameWorks
         static void Stack_Operations()
         {
             StackOperations.AddElementsInStack(UsersDataArray);
+            StackOperations.DisplayAllElementsInStack();
         }
         static void Main(string[] args)
         {
@@ -68,7 +69,7 @@ namespace CollectionFrameWorks
             List_Operations();
 
             // Stack Operations
-            Stack_Operation();
+            Stack_Operations();
 
             Console.ReadLine();
         }   

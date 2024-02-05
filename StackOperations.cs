@@ -1,11 +1,13 @@
 ﻿using Microsoft.SqlServer.Server;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace CollectionFrameWorks
 {
@@ -23,6 +25,18 @@ namespace CollectionFrameWorks
             }
             Console.WriteLine("Added Elements to stack Successfully");
             Console.WriteLine();
+        }
+
+        public static void DisplayAllElementsInStack()
+        {
+            Console.WriteLine("Printing All Values in Stack");
+            Console.WriteLine("__________________");
+            foreach (string element in newStack)
+            {
+                Console.WriteLine($"|   {element}   |");
+                Console.WriteLine("__________________");
+            }
+            Console.WriteLine("Printed All Elements SuccessFully");
         }
 
         public static void RemoveAllElementsInStack()
