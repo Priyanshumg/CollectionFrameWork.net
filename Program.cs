@@ -58,7 +58,10 @@ namespace CollectionFrameWorks
 
             // Performing Hash Set Operations
             HashSet_Operations();
+            
+            // Performing List Operations
             List_Operations();
+
             Console.ReadLine();
         }   
     }
