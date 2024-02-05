@@ -53,5 +53,13 @@ namespace CollectionFrameWorks
             PrintHashSetElements();
             Console.WriteLine();
         }
+        public static void RemoveElementHashSet(string SingleElementToRemove)
+        {
+            Console.WriteLine("Removing " + SingleElementToRemove + " from the HashSet");
+            newHashSet.Remove(SingleElementToRemove);
+            PrintHashSetElements();
+            Console.WriteLine();
+        }
+
     }
 }

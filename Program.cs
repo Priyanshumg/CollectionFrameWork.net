@@ -9,7 +9,7 @@ namespace CollectionFrameWorks
     internal class Program
     {
         // Array For Inputs
-        public static String[] UsersDataArray = { "Arun", "Garv", "Sunil", "Prince", "Aish", "Ankit", "Esha", "Namit", "Manikanta", "Dhanush", "Shovik", "Prakhar" };
+        public static String[] UsersDataArray = { "Arun", "Garv", "Sunil", "Roshan","Prince", "Aish", "Ankit", "Esha", "Namit", "Manikanta", "Dhanush", "Shovik", "Prakhar" };
         public static String[] SampleArrayElements = { "Garv", "Roshan" };
         private static void LinkedList_Operations()
         {
@@ -37,6 +37,7 @@ namespace CollectionFrameWorks
             HashSetOperations.AddElementsInHashSet(UsersDataArray);
             HashSetOperations.PrintHashSetElements();
             HashSetOperations.RemoveElementHashSet(SampleArrayElements);
+            HashSetOperations.RemoveElementHashSet("Sunil");
         }
         static void Main(string[] args)
         {
