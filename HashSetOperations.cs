@@ -53,7 +53,5 @@ namespace CollectionFrameWorks
             PrintHashSetElements();
             Console.WriteLine();
         }
-
-
     }
 }
