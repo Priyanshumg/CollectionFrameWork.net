@@ -46,7 +46,15 @@ namespace CollectionFrameWorks
             {
                 Console.WriteLine("We Dont have that element present in the list, Please check the Case Sensitivity of the string");
             }
+
             Console.WriteLine();
+        }
+
+        public static void RemoveLastElementInStack()
+        {
+            Console.WriteLine("Removing Last element from the Stack");
+            newStack.Pop();
+            Console.WriteLine("Removed Last Element SuccessFullt");
         }
     }
 }
