@@ -34,14 +34,24 @@ namespace CollectionFrameWorks
 
         public static void HashSet_Operations()
         {
+            // Adding Elements to HashSet
             HashSetOperations.AddElementsInHashSet(UsersDataArray);
+            
+            // Print All Elements of HashSet
             HashSetOperations.PrintHashSetElements();
+            
+            // Remove Elements from HashSet using Array
             HashSetOperations.RemoveElementHashSet(SampleArrayElements);
+            
+            // Remove Elements by passing String Value
             HashSetOperations.RemoveElementHashSet("Sunil");
         }
         static void Main(string[] args)
         {
+            // Performing Linked List Operations
             LinkedList_Operations();
+
+            // Performing Hash Set Operations
             HashSet_Operations();
             Console.ReadLine();
         }   
