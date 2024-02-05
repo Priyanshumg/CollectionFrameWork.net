@@ -47,6 +47,7 @@ namespace CollectionFrameWorks
             newStack.Clear();
             Console.WriteLine("Removed All Elements from the stack successfully");
             Console.WriteLine();
+            DisplayAllElementsInStack();
         }
 
         public static void CheckStringInStack(string UserString)
@@ -60,7 +61,7 @@ namespace CollectionFrameWorks
             {
                 Console.WriteLine("We Dont have that element present in the list, Please check the Case Sensitivity of the string");
             }
-
+            DisplayAllElementsInStack();
             Console.WriteLine();
         }
 
@@ -69,6 +70,15 @@ namespace CollectionFrameWorks
             Console.WriteLine("Removing Last element from the Stack");
             newStack.Pop();
             Console.WriteLine("Removed Last Element SuccessFullt");
+            DisplayAllElementsInStack();
+        }
+
+        public static void AddObjectAtTop()
+        {
+            Console.WriteLine("Adding Object to the Top of Stack");
+            newStack.Peek();
+            Console.WriteLine("Added Element to the Top of Stack");
+            DisplayAllElementsInStack();
         }
     }
 }
