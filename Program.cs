@@ -59,7 +59,7 @@ namespace CollectionFrameWorks
             StackOperations.CheckStringInStack("Priyanshu");
             StackOperations.CheckStringInStack("Gandhi");
             StackOperations.RemoveLastElementInStack();
-            
+            StackOperations.RemoveAllElementsInStack();
         }
         static void Main(string[] args)
         {
