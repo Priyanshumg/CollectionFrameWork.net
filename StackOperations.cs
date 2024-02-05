@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.SqlServer.Server;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,5 +10,13 @@ namespace CollectionFrameWorks
     class StackOperations
     {
         public static Stack<string> newStack = new Stack<string>();
+
+        public static void AddElementsInStack(string[] ArrayUserData)
+        {
+            foreach (string elements in ArrayUserData)
+            {
+                newStack.Push(elements);
+            }
+        }
     }
 }
