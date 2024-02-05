@@ -52,5 +52,12 @@ namespace CollectionFrameWorks
             PrintLinkedList();
         }
 
+        public static void RemoveIndexByValue(string nodeValue)
+        {
+            Console.WriteLine("Removing the Index value provided {0}", nodeValue);
+            Console.WriteLine("Printing Current LinkedList of Elements:");
+            myLinkedList.Remove(nodeValue);
+            PrintLinkedList();
+        }
     }
 }
