@@ -35,6 +35,7 @@ namespace CollectionFrameWorks
         public static void HashSet_Operations()
         {
             HashSetOperations.AddElementsInHashSet(UsersDataArray);
+            HashSetOperations.PrintHashSetElements();
         }
         static void Main(string[] args)
         {
