@@ -12,6 +12,8 @@ namespace CollectionFrameWorks
         {
             String[] UsersDataArray = { "Arun", "Garv", "Sunil", "Prince", "Aish" ,"Ankit", "Esha", "Namit", "Manikanta", "Dhanush", "Shovik", "Prakhar" };
             LinkedListOperations.AddElementsInLinkedList(UsersDataArray);
-        }
+            LinkedListOperations.PrintLinkedList();
+
+        }   
     }
 }

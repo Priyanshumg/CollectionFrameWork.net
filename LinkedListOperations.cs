@@ -36,5 +36,13 @@ namespace CollectionFrameWorks
             Console.WriteLine("Null }");
             Console.WriteLine();
         }
+
+        public static void RemoveFirstElement()
+        {
+            myLinkedList.RemoveFirst();
+            Console.WriteLine("Removed First Element of a LinkedList");
+            PrintLinkedList();
+        }
+
     }
 }
