@@ -23,5 +23,14 @@ namespace CollectionFrameWorks
             }
             Console.WriteLine("Added Elements to stack Successfully");
         }
+
+        public static void RemoveAllElementsInStack()
+        {
+            // Removes all the element inside a stack(Returns Empty stack)
+            Console.WriteLine("Removing Elements in stack");
+            Thread.Sleep(2000);
+            newStack.Clear();
+            Console.WriteLine("Removed All Elements from the stack successfully");
+        }
     }
 }
