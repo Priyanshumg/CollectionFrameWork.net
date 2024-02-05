@@ -59,5 +59,14 @@ namespace CollectionFrameWorks
             myLinkedList.Remove(nodeValue);
             PrintLinkedList();
         }
+
+        public static void RemoveAllElementsLinkedList()
+        {
+            Console.WriteLine("Removing All Elements in a LinkedList");
+            myLinkedList.Clear();
+            Console.WriteLine("Removed All Elements from LinkedList");
+            PrintLinkedList();
+        }
+
     }
 }
