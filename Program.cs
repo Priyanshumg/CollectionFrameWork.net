@@ -58,6 +58,7 @@ namespace CollectionFrameWorks
             StackOperations.DisplayAllElementsInStack();
             StackOperations.CheckStringInStack("Priyanshu");
             StackOperations.CheckStringInStack("Gandhi");
+            StackOperations.RemoveLastElementInStack();
             
         }
         static void Main(string[] args)
