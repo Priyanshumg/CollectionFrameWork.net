@@ -22,5 +22,20 @@ namespace CollectionFrameWorks
             Console.WriteLine("Added Elements SuccessFully");
             Console.WriteLine();
         }
+
+        public static void PrintLinkedList()
+        {
+            // Printing all elements in a linkedlist
+            Console.Write("CurrentList { ");
+            Thread.Sleep(1000);
+            foreach (string str in myLinkedList)
+            {
+                Console.Write("{0}, ", str);
+                Thread.Sleep(500);
+            }
+            Console.WriteLine("Null }");
+            Console.WriteLine();
+        }
+
     }
 }
