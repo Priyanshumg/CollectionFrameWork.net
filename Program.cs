@@ -15,7 +15,7 @@ namespace CollectionFrameWorks
             LinkedListOperations.PrintLinkedList();
             LinkedListOperations.RemoveFirstElement();
             LinkedListOperations.RemoveLastElement();
-            LinkedListOperations.RemoveIndexByValue("Aish");
+            LinkedListOperations.RemoveByValue("Aish");
             Console.ReadLine();
         }   
     }
