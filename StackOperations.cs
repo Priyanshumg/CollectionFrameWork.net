@@ -22,6 +22,7 @@ namespace CollectionFrameWorks
                 newStack.Push(elements);
             }
             Console.WriteLine("Added Elements to stack Successfully");
+            Console.WriteLine();
         }
 
         public static void RemoveAllElementsInStack()
@@ -31,6 +32,21 @@ namespace CollectionFrameWorks
             Thread.Sleep(2000);
             newStack.Clear();
             Console.WriteLine("Removed All Elements from the stack successfully");
+            Console.WriteLine();
+        }
+
+        public static void CheckStringInStack(string UserString)
+        {
+            Console.WriteLine($"Checking if the {UserString} is Present inside stack or not");
+            if (newStack.Contains(UserString))
+            {
+                Console.WriteLine("Yes This string is Present");
+            }
+            else
+            {
+                Console.WriteLine("We Dont have that element present in the list, Please check the Case Sensitivity of the string");
+            }
+            Console.WriteLine();
         }
     }
 }
