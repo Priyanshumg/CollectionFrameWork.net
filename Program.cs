@@ -31,9 +31,15 @@ namespace CollectionFrameWorks
             // Removing All the elements in LinkedList
             LinkedListOperations.RemoveAllElementsLinkedList();
         }
+
+        public static void HashSet_Operations()
+        {
+            HashSetOperations.AddElementsInHashSet(UsersDataArray);
+        }
         static void Main(string[] args)
         {
             LinkedList_Operations();
+            HashSet_Operations();
             Console.ReadLine();
         }   
     }
