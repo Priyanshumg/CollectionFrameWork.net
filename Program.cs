@@ -51,6 +51,11 @@ namespace CollectionFrameWorks
             // Display Count of total elements in the list
             ListOperation.PrintLengthList();
         }
+
+        static void Stack_Operations()
+        {
+
+        }
         static void Main(string[] args)
         {
             // Performing Linked List Operations
@@ -59,8 +64,11 @@ namespace CollectionFrameWorks
             // Performing Hash Set Operations
             HashSet_Operations();
             
-            // Performing List Operations
+            // Performing List Operations 
             List_Operations();
+
+            // Stack Operations
+            Stack_Operations();
 
             Console.ReadLine();
         }   
