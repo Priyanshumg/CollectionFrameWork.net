@@ -34,17 +34,22 @@ namespace CollectionFrameWorks
 
         public static void HashSet_Operations()
         {
-            // Adding Elements to HashSet
             HashSetOperations.AddElementsInHashSet(UsersDataArray);
-            
-            // Print All Elements of HashSet
             HashSetOperations.PrintHashSetElements();
-            
-            // Remove Elements from HashSet using Array
             HashSetOperations.RemoveElementHashSet(SampleArrayElements);
-            
-            // Remove Elements by passing String Value
             HashSetOperations.RemoveElementHashSet("Sunil");
+        }
+
+        public static void List_Operations()
+        {
+            // Add Elements to List
+            ListOperation.AddElementInList(UsersDataArray);
+            
+            // Display Capacity of List
+            ListOperation.PrintListCapacity();
+
+            // Display Count of total elements in the list
+            ListOperation.PrintLengthList();
         }
         static void Main(string[] args)
         {
@@ -53,6 +58,7 @@ namespace CollectionFrameWorks
 
             // Performing Hash Set Operations
             HashSet_Operations();
+            List_Operations();
             Console.ReadLine();
         }   
     }
