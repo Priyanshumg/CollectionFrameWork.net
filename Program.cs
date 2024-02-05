@@ -39,10 +39,16 @@ namespace CollectionFrameWorks
             HashSetOperations.RemoveElementHashSet(SampleArrayElements);
             HashSetOperations.RemoveElementHashSet("Sunil");
         }
+
+        static void List_Operations()
+        {
+
+        }
         static void Main(string[] args)
         {
             LinkedList_Operations();
             HashSet_Operations();
+            List_Operations();
             Console.ReadLine();
         }   
     }
