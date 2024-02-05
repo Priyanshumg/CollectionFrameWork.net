@@ -8,6 +8,7 @@ namespace CollectionFrameWorks
 {
     internal class Program
     {
+        // Array For Inputs
         public static String[] UsersDataArray = { "Arun", "Garv", "Sunil", "Prince", "Aish", "Ankit", "Esha", "Namit", "Manikanta", "Dhanush", "Shovik", "Prakhar" };
 
         private static void LinkedList_Operations()
@@ -32,8 +33,6 @@ namespace CollectionFrameWorks
         }
         static void Main(string[] args)
         {
-            // Array For Inputs
-
             LinkedList_Operations();
             Console.ReadLine();
         }   
