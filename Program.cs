@@ -34,9 +34,16 @@ namespace CollectionFrameWorks
 
         public static void HashSet_Operations()
         {
+            // Adds ALl Elements
             HashSetOperations.AddElementsInHashSet(UsersDataArray);
+            
+            // Prints All Elements
             HashSetOperations.PrintHashSetElements();
+            
+            // Removes a Elements Provided in Array
             HashSetOperations.RemoveElementHashSet(SampleArrayElements);
+            
+            // Remove Particular Element
             HashSetOperations.RemoveElementHashSet("Sunil");
         }
 
@@ -54,11 +61,22 @@ namespace CollectionFrameWorks
 
         static void Stack_Operations()
         {
+            // Add Elements in a Stack
             StackOperations.AddElementsInStack(UsersDataArray);
+            
+            // Display All Elements In Stack
             StackOperations.DisplayAllElementsInStack();
+            
+            // Check String Is in Stack Or Not
             StackOperations.CheckStringInStack("Priyanshu");
+            
+            // Check String In Stack Or Not
             StackOperations.CheckStringInStack("Gandhi");
+            
+            // Removes Last Elements from an array
             StackOperations.RemoveLastElementInStack();
+
+            // Removes All Elements from an array
             StackOperations.RemoveAllElementsInStack();
         }
         static void Main(string[] args)
