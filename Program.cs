@@ -89,6 +89,9 @@ namespace CollectionFrameWorks
             
             // Prints Total Elements in a Queue
             QueueOperations.TotalElementsInQueue();
+
+            // Display First Element of a Queue
+            QueueOperations.FirstElementInQueue();
         }
 
         static void Main(string[] args)
