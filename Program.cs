@@ -9,110 +9,25 @@ namespace CollectionFrameWorks
     internal class Program
     {
         // Array For Inputs
-        public static String[] UsersDataArray = { "Arun", "Garv", "Sunil", "Roshan","Prince", "Aish", "Ankit", "Esha", "Namit", "Manikanta", "Dhanush", "Shovik", "Prakhar" };
-        public static String[] SampleArrayElements = { "Garv", "Roshan" };
-        private static void LinkedList_Operations()
-        {
-            // Add Elements in LinkedList
-            LinkedListOperations.AddElementsInLinkedList(UsersDataArray);
-
-            // Print All Elements in LinkedList
-            LinkedListOperations.PrintLinkedList();
-
-            // Remove First Element In LinkedList
-            LinkedListOperations.RemoveFirstElement();
-
-            // Remove Last Element in LinkedList
-            LinkedListOperations.RemoveLastElement();
-
-            // Remove Element By Passing Value
-            LinkedListOperations.RemoveByValue("Aish");
-
-            // Removing All the elements in LinkedList
-            LinkedListOperations.RemoveAllElementsLinkedList();
-        }
-
-        public static void HashSet_Operations()
-        {
-            // Adds ALl Elements
-            HashSetOperations.AddElementsInHashSet(UsersDataArray);
-            
-            // Prints All Elements
-            HashSetOperations.PrintHashSetElements();
-            
-            // Removes a Elements Provided in Array
-            HashSetOperations.RemoveElementHashSet(SampleArrayElements);
-            
-            // Remove Particular Element
-            HashSetOperations.RemoveElementHashSet("Sunil");
-        }
-
-        public static void List_Operations()
-        {
-            // Add Elements to List
-            ListOperation.AddElementInList(UsersDataArray);
-            
-            // Display Capacity of List
-            ListOperation.PrintListCapacity();
-
-            // Display Count of total elements in the list
-            ListOperation.PrintLengthList();
-        }
-
-        static void Stack_Operations()
-        {
-            // Add Elements in a Stack
-            StackOperations.AddElementsInStack(UsersDataArray);
-            
-            // Display All Elements In Stack
-            StackOperations.DisplayAllElementsInStack();
-            
-            // Check String Is in Stack Or Not
-            StackOperations.CheckStringInStack("Priyanshu");
-            
-            // Check String In Stack Or Not
-            StackOperations.CheckStringInStack("Gandhi");
-            
-            // Removes Last Elements from an array
-            StackOperations.RemoveLastElementInStack();
-
-            // Removes All Elements from an array
-            StackOperations.RemoveAllElementsInStack();
-        }
-        static void Queue_Operations()
-        {
-            // Adds Elements To the Queue
-            QueueOperations.AddElementeInQueue(UsersDataArray);
-            
-            // Displays All elements in a Queue
-            QueueOperations.DisplayAllElementsInQueue();
-            
-            // Prints Total Elements in a Queue
-            QueueOperations.TotalElementsInQueue();
-
-            // Display First Element of a Queue
-            QueueOperations.FirstElementInQueue();
-
-            // Display and Remove First Element from the Queue
-            QueueOperations.RemoveFirstElementInQueue();
-        }
-
+        static public String[] UsersDataArray = { "Arun", "Garv", "Sunil", "Roshan","Prince", "Aish", "Ankit", "Esha", "Namit", "Manikanta", "Dhanush", "Shovik", "Prakhar" };
+        static public String[] SampleArrayElements = { "Garv", "Roshan" };
         static void Main(string[] args)
         {
             // Performing Linked List Operations
-            // LinkedList_Operations();
+            AllDataStructureOperations.LinkedList_Operations();
 
             // Performing Hash Set Operations
-            // HashSet_Operations();
+            AllDataStructureOperations.HashSet_Operations();
             
             // Performing List Operations 
-            // List_Operations();
+            AllDataStructureOperations.List_Operations();
 
             // Stack Operations
-            // Stack_Operations();
+            AllDataStructureOperations.Stack_Operations();
 
             //Queue Operations
-            Queue_Operations();
+            AllDataStructureOperations.Queue_Operations();
+            
             Console.ReadLine();
         }   
     }

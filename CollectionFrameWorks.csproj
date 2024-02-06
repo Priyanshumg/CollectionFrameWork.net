@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllDataStructureOperations.cs" />
     <Compile Include="QueueOperations.cs" />
     <Compile Include="ListOperation.cs" />
     <Compile Include="HashSetOperations.cs" />
