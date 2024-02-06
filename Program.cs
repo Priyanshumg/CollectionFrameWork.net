@@ -79,6 +79,11 @@ namespace CollectionFrameWorks
             // Removes All Elements from an array
             StackOperations.RemoveAllElementsInStack();
         }
+        static void Queue_Operations()
+        {
+
+        }
+
         static void Main(string[] args)
         {
             // Performing Linked List Operations
@@ -93,6 +98,8 @@ namespace CollectionFrameWorks
             // Stack Operations
             Stack_Operations();
 
+            //Queue Operations
+            Queue_Operations();
             Console.ReadLine();
         }   
     }
