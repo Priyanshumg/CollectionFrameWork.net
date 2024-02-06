@@ -48,5 +48,13 @@ namespace CollectionFrameWorks
             Console.WriteLine($"total Number Of Element in a Queue: {newQueue.Count}");
             Console.WriteLine();
         }
+
+        public static void RemoveFirstElementInQueue()
+        {
+            Console.WriteLine($"Removing First Element from the Queue: {newQueue.Dequeue()}");
+            Console.WriteLine("Printing new Queue");
+            Console.WriteLine();
+            DisplayAllElementsInQueue();
+        }
     }
 }
