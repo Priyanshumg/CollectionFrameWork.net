@@ -23,5 +23,15 @@ namespace CollectionFrameWorks
             Thread.Sleep(1000);
             Console.WriteLine("Added Elements to the Queue Successfully");
         }
+
+        public static void DisplayAllElementsInQueue()
+        {
+            Console.WriteLine("{ ");
+            foreach (string elements in newQueue)
+            {
+                Console.WriteLine(elements, ", ");
+            }
+            Console.WriteLine("Null }");
+        }
     }
 }
