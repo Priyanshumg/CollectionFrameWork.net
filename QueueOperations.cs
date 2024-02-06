@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CollectionFrameWorks
@@ -11,15 +12,15 @@ namespace CollectionFrameWorks
     {
         public static Queue newQueue= new Queue();
 
-        static void AddElementeInQueue(string[] ArrayUserData)
+        public static void AddElementeInQueue(string[] ArrayUserData)
         {
             Console.WriteLine("Adding Elements to the Queue");
-            Console.Write("{ ");
+            Thread.Sleep(1000);
             foreach (string elements in ArrayUserData)
             {
-                newQueue.Enqueue(elements + ", ");
+                newQueue.Enqueue(elements);
             }
-            Console.WriteLine(", Null }");
+            Thread.Sleep(1000);
             Console.WriteLine("Added Elements to the Queue Successfully");
         }
     }

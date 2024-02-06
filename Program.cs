@@ -81,22 +81,25 @@ namespace CollectionFrameWorks
         }
         static void Queue_Operations()
         {
+            // Adds Elements To the Queue
+            QueueOperations.AddElementeInQueue(UsersDataArray);
+
 
         }
 
         static void Main(string[] args)
         {
             // Performing Linked List Operations
-            LinkedList_Operations();
+            // LinkedList_Operations();
 
             // Performing Hash Set Operations
-            HashSet_Operations();
+            // HashSet_Operations();
             
             // Performing List Operations 
-            List_Operations();
+            // List_Operations();
 
             // Stack Operations
-            Stack_Operations();
+            // Stack_Operations();
 
             //Queue Operations
             Queue_Operations();
