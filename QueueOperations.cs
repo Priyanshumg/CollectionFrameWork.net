@@ -22,14 +22,16 @@ namespace CollectionFrameWorks
             }
             Thread.Sleep(1000);
             Console.WriteLine("Added Elements to the Queue Successfully");
+            Console.WriteLine();
         }
 
         public static void DisplayAllElementsInQueue()
         {
-            Console.WriteLine("{ ");
+            Console.WriteLine("Printing Elements in Queue");
+            Console.Write("{ ");
             foreach (string elements in newQueue)
             {
-                Console.WriteLine(elements, ", ");
+                Console.Write($"{elements}, ");
             }
             Console.WriteLine("Null }");
         }
