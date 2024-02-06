@@ -37,6 +37,12 @@ namespace CollectionFrameWorks
             Console.WriteLine();
         }
 
+        public static void FirstElementInQueue()
+        {
+            Console.WriteLine($"First Element in Queue {newQueue.Peek()}");
+            Console.WriteLine();
+        }
+
         public static void TotalElementsInQueue()
         {
             Console.WriteLine($"total Number Of Element in a Queue: {newQueue.Count}");
