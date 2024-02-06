@@ -92,6 +92,9 @@ namespace CollectionFrameWorks
 
             // Display First Element of a Queue
             QueueOperations.FirstElementInQueue();
+
+            // Display and Remove First Element from the Queue
+            QueueOperations.RemoveFirstElementInQueue();
         }
 
         static void Main(string[] args)
