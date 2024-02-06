@@ -83,6 +83,7 @@ namespace CollectionFrameWorks
         {
             // Adds Elements To the Queue
             QueueOperations.AddElementeInQueue(UsersDataArray);
+            QueueOperations.DisplayAllElementsInQueue();
         }
 
         static void Main(string[] args)
