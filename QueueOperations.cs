@@ -34,6 +34,13 @@ namespace CollectionFrameWorks
                 Console.Write($"{elements}, ");
             }
             Console.WriteLine("Null }");
+            Console.WriteLine();
+        }
+
+        public static void TotalElementsInQueue()
+        {
+            Console.WriteLine($"total Number Of Element in a Queue: {newQueue.Count}");
+            Console.WriteLine();
         }
     }
 }
